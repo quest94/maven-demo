@@ -1,13 +1,11 @@
 package org.quest94.demo.redisson;
 
-import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 
 import java.util.concurrent.TimeUnit;
 
-@Slf4j
 class MainTest {
 
 
@@ -28,7 +26,8 @@ class MainTest {
 
 
         } catch (Exception ex) {
-            log.error("下单失败", ex);
+            System.out.println("下单失败");
+            ex.printStackTrace();
         } finally {
             lock.unlock();
         }
