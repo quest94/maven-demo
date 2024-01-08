@@ -1,0 +1,8 @@
+# maven ignore
+*/target/
+
+# Visual Studio Code ignore
+.vscode/
+
+# IntelliJ IDEA ignore
+.idea/
