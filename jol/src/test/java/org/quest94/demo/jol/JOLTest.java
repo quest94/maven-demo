@@ -3,7 +3,7 @@ package org.quest94.demo.jol;
 import org.junit.jupiter.api.Test;
 import org.openjdk.jol.info.ClassLayout;
 
-public class SimpleTest {
+public class JOLTest {
 
     @Test
     public void objectTest() {

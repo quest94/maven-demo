@@ -1,16 +1,12 @@
 package org.quest94.demo.simple;
 
-import java.util.ArrayList;
+import org.junit.jupiter.api.Test;
 
-class SimpleTest {
-//    byte[] bytes = new byte[1024 * 100];// 100KB
+public class SimpleTest {
 
-    public static void main(String[] args) throws InterruptedException {
-        ArrayList<Main> heapTests = new ArrayList<>();
-        while (true) {
-//            heapTests.add(new Main());
-//            TimeUnit.MILLISECONDS.sleep(10);
-        }
+    @Test
+    public void threadATest() {
+        System.out.println("Test");
     }
 
 }
