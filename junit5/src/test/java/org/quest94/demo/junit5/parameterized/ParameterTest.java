@@ -1,4 +1,4 @@
-package org.quest94.demo.junit5;
+package org.quest94.demo.junit5.parameterized;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;

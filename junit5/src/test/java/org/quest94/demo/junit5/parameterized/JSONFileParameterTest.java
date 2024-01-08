@@ -1,4 +1,4 @@
-package org.quest94.demo.junit5;
+package org.quest94.demo.junit5.parameterized;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

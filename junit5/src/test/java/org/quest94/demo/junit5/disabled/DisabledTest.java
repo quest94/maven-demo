@@ -1,4 +1,4 @@
-package org.quest94.demo.junit5;
+package org.quest94.demo.junit5.disabled;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package org.quest94.demo.junit5;
+package org.quest94.demo.junit5.assertions;
 
 import org.junit.jupiter.api.Test;
 import org.opentest4j.AssertionFailedError;

@@ -1,4 +1,4 @@
-package org.quest94.demo.junit5;
+package org.quest94.demo.junit5.assumptions;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
