@@ -21,7 +21,7 @@ public class JSONFileParameterTest {
      */
     static List<User> testDDTFromJson() throws IOException {
         return new ObjectMapper().readValue(
-                ParameterTest.class.getResourceAsStream("/user.json"),
+                CsvParameterTest.class.getResourceAsStream("/parameterized/user.json"),
                 // 本类名反射
                 new TypeReference<>() {
                 }

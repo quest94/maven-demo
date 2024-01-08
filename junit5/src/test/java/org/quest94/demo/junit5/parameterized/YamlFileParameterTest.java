@@ -22,7 +22,7 @@ public class YamlFileParameterTest {
      */
     static List<User> testDDTFromYaml() throws IOException {
         return new ObjectMapper(new YAMLFactory()).readValue(
-                ParameterTest.class.getResourceAsStream("/user.yaml"),
+                CsvParameterTest.class.getResourceAsStream("/parameterized/user.yaml"),
                 // 本类名反射
                 new TypeReference<>() {
                 }
