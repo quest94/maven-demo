@@ -22,7 +22,7 @@ public class Demo {
         List<DynamicTest> dynamicTestList = new ArrayList<>();
         ObjectMapper objectMApper = new ObjectMapper(new YAMLFactory());
         // 反序列化yaml数据到对象列表中
-        ResultList resultList = objectMApper.readValue(Demo.class.getResourceAsStream("/shell_test_result.yaml"), ResultList.class);
+        ResultList resultList = objectMApper.readValue(Demo.class.getResourceAsStream("/dynamic/test/shell_test_result.yaml"), ResultList.class);
         System.out.println("Done!");
         // 动态遍历生成测试方法
         for (ResultList.ShellResult shellResult : resultList.resultList()) {
