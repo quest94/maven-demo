@@ -1,5 +1,5 @@
 # maven ignore
-*/target/
+**/target/
 
 # Visual Studio Code ignore
 .vscode/

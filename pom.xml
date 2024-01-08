@@ -11,6 +11,7 @@
         <module>simple</module>
         <module>redisson</module>
         <module>junit5</module>
+        <module>junit5-suite</module>
     </modules>
 
     <properties>
