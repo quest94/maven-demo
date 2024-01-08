@@ -9,6 +9,7 @@
     <modules>
         <module>jol</module>
         <module>simple</module>
+        <module>redisson</module>
     </modules>
 
     <properties>
